@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+websiteUrl: https://mystore.com
+swagger:
+  server-url: https://spring-store-production-b1cd.up.railway.app

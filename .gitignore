@@ -1,0 +1,88 @@
+# ========================
+# macOS 系统文件
+# ========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# ========================
+# Node.js / Vue 前端
+# ========================
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# 环境变量配置
+.env
+.env.*.local
+
+# 前端工具相关
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# IDE & 编辑器
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# VS Code workspace settings
+*.code-workspace
+
+# ========================
+# Java / Spring Boot 后端
+# ========================
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Gradle（如果使用）
+.gradle/
+build/
+
+# Java 编译文件
+*.class
+*.log
+
+# 运行时文件
+hs_err_pid*
+replay_pid*
+
+# 临时文件
+*.iml
+*.ipr
+*.iws
+
+# 环境变量
+application.properties
+application.yml
+application-*.yml
+application-*.properties
+
+# ========================
+# 证书与密钥
+# ========================
+*.pem
+*.key
+*.crt
+*.p12
+
+# ========================
+# OS/Linux 文件
+# ========================
+Thumbs.db
+ehthumbs.db
